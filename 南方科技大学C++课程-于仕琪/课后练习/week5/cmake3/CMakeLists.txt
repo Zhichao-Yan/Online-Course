@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.23.2)
+project(Cmake3)
+aux_source_directory(./src DIR_SRCS)
+include_directories(include)
+add_executable(main ${DIR_SRCS})
