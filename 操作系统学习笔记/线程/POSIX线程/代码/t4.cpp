@@ -22,7 +22,7 @@ void* print_hello(void* tid)
         exit(-1);
     }
     cout << "From 线程id:" << i << endl;
-    pthread_exit(nullptr);
+    //pthread_exit(nullptr);
 }
 
 int main()
